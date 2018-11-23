@@ -166,7 +166,7 @@ if __name__ == "__main__":
     gfw.parse("keywords")
     import time
     t = time.time()
-    print(gfw.filter("法轮功 我操操操", "*"))
+    print(gfw.filter("法轮功 我操操操 草你妈", "*"))
     print(gfw.filter("针孔摄像机 我操操操", "*"))
     print(gfw.filter("售假人民币 我操操操", "*"))
     print(gfw.filter("传世私服 我操操操", "*"))
